@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Spline+Sans+Mono:wght@300&display=swap');
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    border-color: orangered;
+    box-shadow: none;
+}
+
+nav div ul li a:hover { color: orangered !important; }
+
 * {
     margin: 0;
     padding: 0;
     }
 
+    .textoBlanco {
+        text-decoration: none;
+        color: white;
+    }    
 
 .flexEnd {
     display: flex;
@@ -12,6 +25,11 @@
 }
 
 .bgGris{
+    background-color: rgba(30, 30, 30, 1)
+}
+
+footer{
+    color: rgb(129, 129, 129);
     background-color: rgba(30, 30, 30, 1)
 }
 
@@ -25,12 +43,31 @@
     color: white;
 }
 
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203);
-} 
+
+
 
 body{
-    background-image: url(../img/patron3.jpg);
-    background-attachment: fixed;
-    width: 100%;
+    background-color: rgba(32, 41, 67,1);
+}
+
+.cajaServicios{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    
+
+}
+
+.fontW900{
+    font-weight: 900;
+}
+
+.imagenServicios{
+    border-top:inset 2px orangered;
+    border-right:inset 2px orangered;
+    border-left:inset 2px orangered;
+    border-bottom:inset 2px orangered;
+    background-color: white;
+
+
 }

@@ -13,7 +13,7 @@
 
     <title>RPA</title>
   </head>
-  <body>
+  <body >
     <!-- EMPIEZA NAV  -->
     <nav class="navbar navbar-expand-lg bgGris fontImpact">
         <div class="container-fluid">
@@ -26,16 +26,16 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">            
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link textoBlanco" href="#">SERVICIOS</a>
+                <a class="nav-link textoBlanco fontImpact" href="views/servicios.html">SERVICIOS</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link textoBlanco" href="#">NOSOTROS</a>
+                <a class="nav-link textoBlanco" href="views/nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBlanco" href="#">CONTACTO</a>
+                <a class="nav-link textoBlanco" href="views/contacto.html">CONTACTO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBlanco" href="#">FORMAS DE PAGO</a>
+                <a class="nav-link textoBlanco" href="views/pagos.html">FORMAS DE PAGO</a>
               </li>           
             </ul>
             
@@ -53,24 +53,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/carru1.png" class="d-block w-100 h-50" >
+            <img src="img/carru1.png" class="d-block w-100 h-50" alt="camara de seguridad">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h2>MANTENE TU HOGAR SEGURO</h2>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/carru2.png" class="d-block w-100" alt="..." >
+            <img src="img/carru2.png" class="d-block w-100" alt="monitoreo" >
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h2>MONITOREO LAS 24HS</h2>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/carru3.png" class="d-block w-100" alt="..." >
+            <img src="img/carru3.png" class="d-block w-100" alt="celular" >
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h2>CONTROL TOTAL DESDE TU CELULAR</h2>
             </div>
           </div>
         </div>
@@ -87,24 +84,73 @@
 
 
     <main>
-        <section>
-            <div class="contaoner-fluid">
-                <h1>Nuestros Servicios</h1>
-                <div class="row">
-                    <article class="col-sm-12 col-md-6 col-lg-3">
-                        <img src="img/soporte-tecnico.png" alt="imagen soporte" class="img-thumbnail w-50 h-50">
-                        <h2>SERVICIOS COMPLETOS</h2>
-                        <p>Un instalador de camaras y alarmas profesional corobora el lugar de instalacion y todas las necesidades para esta</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-    
+      <h1 class="text-center textoBlanco bgGris fs-2">NUESTROS SERVICIOS</h1>
+        <section class="row textoBlanco mt-5">
+  
+              <article class="col-sm-12 col-md-6 col-lg-3 cajaServicios">
+                  <img src="img/soporte-tecnico.png" alt="imagen soporte" class="img-thumbnail w-25 imagenServicios rounded-circle">
+                  <h2 class="fontW900">PROTECCION PERMANENTE</h2>
+                  <p>Monitoreo de alarmas las 24hs</p>
+              </article>
+
+              <article class="col-sm-12 col-md-6 col-lg-3 cajaServicios">
+                  <img src="img/soporte-tecnico.png" alt="imagen soporte" class="img-thumbnail w-25 imagenServicios rounded-circle">
+                  <h2 class="fontW900">SERVICIOS COMPLETOS</h2>
+                  <p>Un instalador de camaras y alarmas profesional corobora el lugar de instalacion y todas las necesidades para esta</p>
+              </article>      
+
+              <article class="col-sm-12 col-md-6 col-lg-3 cajaServicios">
+                  <img src="img/soporte-tecnico.png" alt="imagen soporte" class="img-thumbnail w-25 imagenServicios rounded-circle">
+                  <h2 class="fontW900">MANTENIMIENTO Y REPARACION</h2>
+                  <p>Personal tecnico especializado disponible todos los dias del año</p>
+              </article>      
+
+              <article class="col-sm-12 col-md-6 col-lg-3 cajaServicios">
+                  <img src="img/soporte-tecnico.png" alt="imagen soporte" class="img-thumbnail w-25 imagenServicios rounded-circle">
+                  <h2 class="fontW900">RENDIMIENTO GARANTIZADO</h2>
+                  <p>Asesoramiento para equipamiento y accesorios en base a necesidades y presupuesto</p>
+              </article>   
+
+        </section> 
     </main>
+
+    <!--EMPIEZA MAPA DE GOOGLE  -->
+    <aside id="mapaDireccion">
+      <div class="mb-0">
+          <h2 class="text-center bgGris textoBlanco mb-0 fs-2">DONDE ENCONTRARNOS</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.5518241374925!2d-58.40047248437985!3d-34.76688097365728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ebe24788e3%3A0xabb879ab66cccd5b!2sAv.%20Meeks%20474%2C%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655827665235!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+      </div>
+    </aside>
+    <!--TERMINA MAPA DE GOOGLE  -->
+
+    <!-- EMPIEZA FOOTER -->
+    <footer>
+      <div class="justify-content-center">
+        
+        <div class="d-flex flex-column justify-content-center mx-auto">
+          <img src="img/logoCuadrado.png" alt="logo empresa" height="150px" width="100px">
+          <p>Instalacion de camaras y alarmas con monitoreo las 24hs y control total de las camaras via remota usando cualquier celular con coneccion a internet</p>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+          <a href="https://www.facebook.com" target="_blank" class="me-2">
+              <img src="img/facebook.png" alt="logo facebook" width="100" height="100" >
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="me-2">
+              <img src="img/instagram.png" alt="logo instagram" width="100" height="100">
+          </a>
+          <a href="https://web.whatsapp.com" target="_blank">
+              <img src="img/whatsapp.png" alt="logo wpp" width="100" height="100">
+          </a>
+        </div>
+
+      </div>
+    </footer>
+    <!-- TERMINA FOOTER -->
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   
+  
   </body>
 </html>
