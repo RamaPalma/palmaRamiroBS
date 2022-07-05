@@ -69,5 +69,17 @@ body{
     border-bottom:inset 2px orangered;
     background-color: white;
 
+}
 
+.borderBot{
+    border-bottom:inset 1px white;
+    
+}
+
+.colorOrange {
+    color: orangered ;
+}
+
+.cajaTitulo{
+    height: 90px;
 }

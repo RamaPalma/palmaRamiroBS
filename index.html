@@ -13,11 +13,11 @@
 
     <title>RPA</title>
   </head>
-  <body >
+  <body id="inicio">
     <!-- EMPIEZA NAV  -->
-    <nav class="navbar navbar-expand-lg bgGris fontImpact">
+    <nav class="navbar navbar-expand-lg bgGris fontImpact sticky-top">
         <div class="container-fluid">
-            <a href="index.html" >
+            <a href="#inicio" >
                 <img src="img/nav.png" alt="logo de empersa"  width="100%" height="80px">
             </a>    
           <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,16 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">            
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link textoBlanco fontImpact" href="views/servicios.html">SERVICIOS</a>
+                <a class="nav-link textoBlanco fontImpact" href="#servicios">SERVICIOS</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link textoBlanco" href="views/nosotros.html">NOSOTROS</a>
+                <a class="nav-link textoBlanco" href="#nosotros">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBlanco" href="views/contacto.html">CONTACTO</a>
+                <a class="nav-link textoBlanco" href="#">CONTACTO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBlanco" href="views/pagos.html">FORMAS DE PAGO</a>
+                <a class="nav-link textoBlanco" href="#">FORMAS DE PAGO</a>
               </li>           
             </ul>
             
@@ -82,9 +82,9 @@
       </div>
     <!-- TERMINA CARROUSEL -->
 
-
-    <main>
-      <h1 class="text-center textoBlanco bgGris fs-2">NUESTROS SERVICIOS</h1>
+      <!-- SECCION SERVICIOS -->
+    <main id="servicios">
+      <h1 class="text-center textoBlanco bgGris fs-2 cajaTitulo pt-4">NUESTROS SERVICIOS</h1>
         <section class="row textoBlanco mt-5">
   
               <article class="col-sm-12 col-md-6 col-lg-3 cajaServicios">
@@ -114,10 +114,77 @@
         </section> 
     </main>
 
+      <!-- SECCION SERVICIOS -->
+    
+    <!--EMPIEZA SECCION NOSOTROS  -->
+    <h2 class="textoBlanco text-center bgGris cajaTitulo pt-4" id="nosotros">QUIENES SOMOS</h2>
+    <div class="col-sm-12 text-center">
+      
+      
+      <section>
+        <img src="img/bannerAzul.jpeg" alt="" >
+        <img src="img/contactoAzul.jpeg" alt="" >
+        <p class="textoBlanco text-wrap fs-2 text-center" >Mas de 10 años realizando ventas, instalaciones e instalaciones de camaras y alarmas ya sea para tu hogar o negocio</p>
+      </section>  
+    
+    
+      <aside class="row">
+      <section class="col-lg-6 col-sm-12 mb-4">
+        <h2 class="colorOrange">AL CONTACTARNOS</h2>
+        <div class="text-start textoBlanco ps-5 pe-5">
+        
+          <div class="borderBot pb-1 pt-3">
+            <p>te armamos un presupuesto</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>nos basamos en tus necesidades</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>enviamos tu presupuesto</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>acordamos una fecha</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="col-lg-6 col-sm-12 mb-4">
+        <h2 class="colorOrange">EJEMPLO 2</h2>
+        <div class="text-start textoBlanco ps-5 pe-5">
+        
+          <div class="borderBot pb-1 pt-3">
+            <p>nose que informacion poner</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>para la proxima entrega lo pienso</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>ahora relleno con texto cualquiera</p>
+          </div>
+          
+          <div class="borderBot pb-1 pt-3">
+            <p>acordamos una fecha</p>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+
+    </div>
+    <!--TERMINA SECCION NOSOTROS  -->
+
+    
     <!--EMPIEZA MAPA DE GOOGLE  -->
     <aside id="mapaDireccion">
       <div class="mb-0">
-          <h2 class="text-center bgGris textoBlanco mb-0 fs-2">DONDE ENCONTRARNOS</h2>
+          <h2 class="text-center bgGris textoBlanco mb-0 fs-2 cajaTitulo pt-4" >DONDE ENCONTRARNOS</h2>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.5518241374925!2d-58.40047248437985!3d-34.76688097365728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ebe24788e3%3A0xabb879ab66cccd5b!2sAv.%20Meeks%20474%2C%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655827665235!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
       </div>
     </aside>
