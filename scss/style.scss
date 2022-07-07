@@ -1,0 +1,74 @@
+@import "_var";
+@import "_fonts";
+@import "_commons";
+@import "_nav";
+
+.textoBlanco {
+    text-decoration: none;
+    color: $blanco;
+    }    
+
+.bgGris{
+    background-color: $grisEmpresa;
+}
+
+
+.mainFont{
+    font-family: $mainFont;
+}
+
+.secondFont {
+    font-family: $secondaryFont;
+}
+
+.cajaServicios{
+    text-align: center;
+    font-family: $secondaryFont;
+    font-size: 0.8rem;
+    
+
+}
+
+.fontW900{
+    font-weight: 900;
+}
+
+.imagenServicios{
+    border-top:inset 2px $naranjaEmpresa;
+    border-right:inset 2px $naranjaEmpresa;
+    border-left:inset 2px $naranjaEmpresa;
+    border-bottom:inset 2px $naranjaEmpresa;
+    background-color: white;
+
+}
+
+.borderBot{
+    border-bottom:inset 2px  $blanco;  
+}
+
+.colorOrange {
+    color: $naranjaEmpresa;
+}
+
+.cajaTitulo{
+    height: 90px;
+}
+
+.marginLand{
+    padding-bottom: 110px;
+}
+
+footer{
+    color: rgb(129, 129, 129);
+    background-color:  $grisEmpresa;
+    font-family: $secondaryFont;
+    div{
+        a{
+            img{
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}
