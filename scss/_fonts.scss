@@ -7,3 +7,27 @@
 
 $mainFont : 'Roboto Condensed', sans-serif;
 $secondaryFont : 'Nunito', sans-serif;
+
+.fontW900{
+    font-weight: 900;
+}
+
+.mainFont{
+    font-family: $mainFont;
+}
+
+.secondFont {
+    font-family: $secondaryFont;
+}
+
+.textoBlanco {
+    text-decoration: none;
+    color: $blanco;
+    }    
+
+.mainW900Orange{
+    @extend .mainFont;
+    @extend .fontW900;
+
+    color: $naranjaEmpresa;
+}

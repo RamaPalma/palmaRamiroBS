@@ -1,0 +1,13 @@
+@mixin separadorTitulo ($color,$textAlign,$fondo,$altura,$font,$padding){
+    color: $color;
+    text-align: $textAlign;
+    background-color: $fondo;
+    height: $altura;
+    font-family: $font;
+    padding-top: $padding;
+}
+
+h2{
+    @include separadorTitulo($blanco,center,$grisEmpresa,90px,$mainFont,25px)
+}
+
