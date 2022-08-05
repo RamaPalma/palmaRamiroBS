@@ -8,7 +8,10 @@
     margin-bottom: 0px;
 }
 
-h2{
+h1{
     @include separadorTitulo($blanco,center,$grisEmpresa,90px,$mainFont,25px)
 }
 
+h2{
+    @include separadorTitulo($blanco,center,$grisEmpresa,90px,$mainFont,25px)
+}

@@ -14,7 +14,7 @@
   color: #f9f9f9; }
 
 .mainW900Orange {
-  color: orangered; }
+  color: #dd5d1c; }
 
 * {
   margin: 0;
@@ -24,6 +24,15 @@ body {
   background-color: #202943;
   overflow-x: hidden;
   margin-left: 0px; }
+
+h1 {
+  color: #f9f9f9;
+  text-align: center;
+  background-color: #1e1e1e;
+  height: 90px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 25px;
+  margin-bottom: 0px; }
 
 h2 {
   color: #f9f9f9;
@@ -54,17 +63,17 @@ nav div ul li a:hover {
   margin-bottom: 30px; }
 
 .imagenServicios {
-  border-top: inset 2px orangered;
-  border-right: inset 2px orangered;
-  border-left: inset 2px orangered;
-  border-bottom: inset 2px orangered;
+  border-top: inset 2px #dd5d1c;
+  border-right: inset 2px #dd5d1c;
+  border-left: inset 2px #dd5d1c;
+  border-bottom: inset 2px #dd5d1c;
   background-color: white; }
 
 .borderBot {
   border-bottom: inset 2px #f9f9f9; }
 
 .colorOrange {
-  color: orangered; }
+  color: #dd5d1c; }
 
 .marginLand {
   padding-bottom: 110px; }
@@ -72,12 +81,20 @@ nav div ul li a:hover {
 footer {
   padding-top: 30px;
   padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 30px;
   color: #818181;
   background-color: #1e1e1e;
   font-family: "Nunito", sans-serif; }
-  footer div a img:hover {
-    transform: translateY(-10px); }
+  footer div p {
+    padding-left: 20px;
+    text-align: justify; }
+  footer div a img {
+    height: 25px;
+    width: 25px;
+    margin-top: 50px; }
+    footer div a img:hover {
+      transform: translateY(-10px); }
 
 #formasPago {
   background-color: #f9f9f9; }
@@ -105,3 +122,7 @@ footer {
   color: #f9f9f9;
   font-family: "Nunito", sans-serif;
   padding: 0 1.5em; }
+
+.margenesCel {
+  padding-left: 10px;
+  padding-right: 10px; }
